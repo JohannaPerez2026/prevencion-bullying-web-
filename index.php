@@ -11,7 +11,7 @@
     <header>
         <img src="cbtis_logo.png" alt="Logotipo Prevención Bullying" class="logo">
         <h1>Prevencion del Bullying</h1>
-        <p><strong>Concientizacion sobre el acoso</strong></p>
+        <p><strong>Concientizacion sobre el acoso escolar</strong></p>
     </header>
 
     <nav>
