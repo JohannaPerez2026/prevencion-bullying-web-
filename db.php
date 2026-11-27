@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$dbname = "prevencion_bullying";
-$user = "root";
-$password = ""; // Configuración local común de XAMPP; no usar así en producción.
+$host = "sql110.infinityfree.com";
+$dbname = "if0_43409182_proyecto";
+$user = "if0_43409182";
+$password = "cxWzmqWLPwkYB";
 
 try {
     $pdo = new PDO(
@@ -12,7 +12,7 @@ try {
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
     );
 } catch (PDOException $e) {
-    // No mostrar detalles internos de la base de datos al visitante.
+    error_log($e->getMessage());
     exit("No fue posible conectar con la base de datos.");
 }
 ?>

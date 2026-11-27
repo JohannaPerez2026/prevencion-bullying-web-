@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Contra el Bullying</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <header>
+        <h1>Encuesta sobre el Bullying</h1>
+        <p>Genera un ambiente seguro a todos.</p>
+    </header>
+
+    <nav>
+        <a href="Linea_ayuda.html">Linea de ayuda</a>
+        <a href="Informacion_creador.html">Informacion del creador</a>
+        <a href="Tipos_Bullying.html">Tipos de Bullying</a>
+        <a href="index.php">Pagina principa</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Información de la Encuesta</h2>
+            <p>Conteste la encuesta con sinceridad es totalmente anonima.</p>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de Preguntas</h2>
+            <form action="guardarformulario.php" method="POST">
+                
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">1.- ¿Has sentido que algún compañero se burla de ti?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p1" value="si" required> Sí</label>
+                        <label><input type="radio" name="p1" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">2.- ¿Alguna vez te han puesto un apodo que no te guste?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p2" value="si" required> Sí</label>
+                        <label><input type="radio" name="p2" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">3.- ¿Te han dicho insultos por parte de algún compañero?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p3" value="si" required> Sí</label>
+                        <label><input type="radio" name="p3" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">4.- ¿Haz sentido ese rechazo o te haz sentido excluido de un grupo intencionalmente?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p4" value="si" required> Sí</label>
+                        <label><input type="radio" name="p4" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">5.- ¿Has visto o sentido que algún compañero te trata de manera diferente?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p5" value="si" required> Sí</label>
+                        <label><input type="radio" name="p5" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">6.- ¿Se han burlado de tu apariencia física?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p6" value="si" required> Sí</label>
+                        <label><input type="radio" name="p6" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">7.- ¿Has hecho o recibido burlas por tu color de piel?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p7" value="si" required> Sí</label>
+                        <label><input type="radio" name="p7" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">8.- ¿Alguna vez se han burlado de tu forma de hablar?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p8" value="si" required> Sí</label>
+                        <label><input type="radio" name="p8" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">9.- ¿Has sentido discriminación por tu forma de vestir?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p9" value="si" required> Sí</label>
+                        <label><input type="radio" name="p9" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">10.- ¿Has hecho o recibido comentarios que te han hecho sentir incomodo?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p10" value="si" required> Sí</label>
+                        <label><input type="radio" name="p10" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">11.- ¿Alguna vez han compartido una foto tuya para burlarse?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p11" value="si" required> Sí</label>
+                        <label><input type="radio" name="p11" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">12.- ¿Has sentido miedo a acercarte a compañeros?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p12" value="si" required> Sí</label>
+                        <label><input type="radio" name="p12" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">13.- ¿Alguna vez te han amenazado o intimidado por alguien?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p13" value="si" required> Sí</label>
+                        <label><input type="radio" name="p13" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">14.- ¿Has sido empujado, golpeado o lastimado intencionalmente?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p14" value="si" required> Sí</label>
+                        <label><input type="radio" name="p14" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">15.- ¿Alguna vez te han hecho sentir menos que los demás?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p15" value="si" required> Sí</label>
+                        <label><input type="radio" name="p15" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">16.- ¿Has sentido que te rechazan por tu forma de ser?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p16" value="si" required> Sí</label>
+                        <label><input type="radio" name="p16" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">17.- ¿Has evitado participar en clase por miedo a las burlas?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p17" value="si" required> Sí</label>
+                        <label><input type="radio" name="p17" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">18.- ¿Alguna vez has sentido tristeza por la forma en que te trata algún compañero?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p18" value="si" required> Sí</label>
+                        <label><input type="radio" name="p18" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">19.- ¿Has sentido preocupación al asistir a la escuela por alguna persona?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p19" value="si" required> Sí</label>
+                        <label><input type="radio" name="p19" value="no"> No</label>
+                    </div>
+</div>
+
+                <!-- Pregunta 20 -->
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">20.- ¿Alguna vez has preferido estar solo para evitar problemas con otros compañeros?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p20" value="si" required> Sí</label>
+                        <label><input type="radio" name="p20" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Pregunta 21 -->
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">21.- ¿Has recibido burlas relacionadas con tu familia?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p21" value="si" required> Sí</label>
+                        <label><input type="radio" name="p21" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Pregunta 22 -->
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">22.- ¿Alguna vez te han discriminado por tu situación económica?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p22" value="si" required> Sí</label>
+                        <label><input type="radio" name="p22" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Pregunta 23 -->
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">23.- ¿Has sentido que te juzgan por tus calificaciones?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p23" value="si" required> Sí</label>
+                        <label><input type="radio" name="p23" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Pregunta 24 -->
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">24.- ¿Alguna vez has visto que un compañero sea víctima de bullying?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p24" value="si" required> Sí</label>
+                        <label><input type="radio" name="p24" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Pregunta 25 -->
+                <div class="pregunta-bloque">
+                    <p class="pregunta-texto">25.- ¿Has presenciado una situación de bullying y no has sabido cómo ayudar?</p>
+                    <div class="opciones-radio">
+                        <label><input type="radio" name="p25" value="si" required> Sí</label>
+                        <label><input type="radio" name="p25" value="no"> No</label>
+                    </div>
+                </div>
+
+                <button type="submit">Enviar respuestas</button>
+
+            </form>
+        </section>
+
+        <section id="equipo">
+            <h2>Integrantes</h2>
+            <p>Pérez Hernández Johanna Paola</p>
+            <p>García Valdez Leslie Joscelyne</p>
+        </section>
+    </main>
+
+</body>
+</html>
